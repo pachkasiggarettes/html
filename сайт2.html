@@ -49,32 +49,43 @@
                     <p>В CSS правил больше, потому что синтаксис там посложнее. Одно из важных, которое
                     действительно поможет вам сохранить ваш код в идеальном виде - порядок свойств.</p>
                     <p>Давайте посмотрим, как это выглядит</p>
-                    <table border="1">
-                        <tr><th>Порядок</th><th>Группа свойств</th><th>Используемые свойства</th></tr>
-                        <tr><td>1</td><td>Позиционирование</td><td>position: relative;<br>
-                            left: 0;<br>
-                            right: 0;<br>
-                            top: 0;<br>
-                            bottom: 0;</td></tr>
-                            <tr><td>2</td><td>Блочная модель</td><td>display: flex;<br>
-                                align-items: center;<br>
-                                margin: 10px;<br>
-                                padding: 10px 20px;<br>
-                                border: 1px solid red;<br>
-                                width: 200px;<br>
-                                height: 100px;<br>
-                                box-sizing: border-box;</td></tr>    
-                            <tr><td>3</td><td>Tипографика </td><td>font-family: Arial;<br>
-                                font-size: 25px;<br>
-                                font-style: italic;<br>
-                                text-decoration: none;<br>
-                                color: red;<br>
-                                </td></tr>    
-                            <tr><td>4</td><td>Оформление</td><td>background: red;<br>
-                                opacity: 1;</td></tr>    
-                            <tr><td>5</td><td>Анимации</td><td>transform: translateX(5px);<br>
-                                animation: shake 0.3s infinite;</td></tr>    
-                     </table>
+                        <table border="1" cellspacing="0" cellpadding="3">
+                            <caption>Порядок свойств</caption>
+                            <thead>
+                              <tr>
+                                <th><strong>Порядок</strong></th>
+                                <th><strong>Группа свойств</strong></th>
+                                <th><strong>Используемые свойства</strong></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>Позиционирование</td>
+                                <td>position: relative; <br> left: 0; <br> right: 0; <br> top: 0; <br> bottom: 0:</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>Блочная модель</td>
+                                 <td> display: flex; <br> align-items: center; <br> margin: 10px;<br>padding: 10px 20px; <br> border: 1px solid red; <br>width: 200px;<br>height: 100px; <br>box-sizing: border-box;</td> 
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>3 Типографика</td>
+                                <td>font-family: Arial;<br> font-size: 25px;<br> font-style: italic;<br>text-decoration: none; <br> color: red;</td>
+                              </tr>
+                              <tr>
+                                <td>4</td>
+                                <td>Оформление</td> 
+                                <td>background: red; <br>opacity: 1;</td>
+                              </tr>
+                              <tr>
+                                <td>5</td>
+                                <td>Анимации</td> 
+                                <td>transform: translateX(5px); <br>animation: shake 0.3s infinite;</td>
+                              </tr>
+                            </tbody>
+                          </table>
                      <h2>JS</h2>
                      <p align="justify">Правила JS не сильно отличаются от HTML и CSS, разве что само применение зависит
                         от итогового синтаксиса. Например, есть такие правила, присущие только для JS, как:
