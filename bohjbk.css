@@ -1,0 +1,20 @@
+h1 {
+    font-family: 'Lobster', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+  }
+  h2 {
+    
+      background: #f6e8d7; 
+      color: rgb(12, 12, 12);   
+  }
+  .block {
+    color: red;
+  }
+
+  #block {
+    color: blue;
+  }
+  
+  * {
+    font-size: 20px;
+  }
